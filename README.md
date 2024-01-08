@@ -21,13 +21,16 @@ This tool has 2 main objectives:
 ### preperation - managing folders before running the cells
 1. create a folder with the name <b>data</b> in your workspace root
 2. create a folder with the name <b>original</b> in the data folder and put all the laz files that you need to convert in it
+
 ![original](images/image1.png)
+
 3. run the cells
 
 ### results - after running the cells
 1. decompressed las files will be stored in a folder named <b>decompressed</b> in <b>./data/decommpressed</b>
 2. pcd files will be stored in a folder named <b>PCD</b> in <b>./data/PCD</b>
-![pcd and decompressed](images/image2.png)
+
+![pcd and decompressed ](images/image2.png)
 
 ## notes:
 1. code will automatically scroll the whole content in the <b>original</b> folder and extracts the <b>.laz</b> files. so, make sure all the laz files in original folder are stored without any sub-foldering like below
