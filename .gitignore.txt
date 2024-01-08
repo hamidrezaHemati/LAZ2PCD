@@ -1,3 +1,4 @@
 # Ignore the data directory
 data/*
 .ipynb_checkpoints/*
+images/*
