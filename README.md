@@ -97,7 +97,7 @@ The **Universal Transverse Mercator (UTM)** system is a global map projection us
 
 UTM grid zones of the earth
 
-![UTM grid zones of some part of Asia including Japan](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf50e19-cd2d-4d98-8a51-76c1889ddec4/Untitled.png)
+![UTM grid zones of some part of Asia including Japan](images/image3.png)
 
 UTM grid zones of some part of Asia including Japan
 
@@ -126,13 +126,12 @@ The MGRS (Military Grid Reference System) is a geocoordinate system used by the 
 The MGRS is divided into several components:
 
 1. Grid Zone Designation: The Earth is divided into 60 grid zones, each spanning 6 degrees of longitude. These zones are designated by letters from C to X (excluding I and O) to cover the entire globe.
+![UTM grid zones of the earth](https://legallandconverter.com/images/world-mgrs-grid.jpg)
     
-    !https://legallandconverter.com/images/world-mgrs-grid.jpg
-    
-2. 100,000-Meter Square Identifier: Each grid zone is further divided into 100,000-meter squares, identified by a two-letter combination. The combinations range from AA to ZZ, excluding a few combinations that could be confused with alphanumeric coordinates.
-3. Easting: The easting represents the east-west position within the 100,000-meter square. It is a six-digit number that indicates the distance in meters from the left edge of the square.
-4. Northing: The northing represents the north-south position within the 100,000-meter square. It is also a six-digit number indicating the distance in meters from the bottom edge of the square.
-5. Additional Precision: For even greater precision, the 100,000-meter square can be further divided into smaller grids of 10,000, 1,000, 100, 10, or 1 meter. These subdivisions are indicated by additional digits in the easting and northing values.
+3. 100,000-Meter Square Identifier: Each grid zone is further divided into 100,000-meter squares, identified by a two-letter combination. The combinations range from AA to ZZ, excluding a few combinations that could be confused with alphanumeric coordinates.
+4. Easting: The easting represents the east-west position within the 100,000-meter square. It is a six-digit number that indicates the distance in meters from the left edge of the square.
+5. Northing: The northing represents the north-south position within the 100,000-meter square. It is also a six-digit number indicating the distance in meters from the bottom edge of the square.
+6. Additional Precision: For even greater precision, the 100,000-meter square can be further divided into smaller grids of 10,000, 1,000, 100, 10, or 1 meter. These subdivisions are indicated by additional digits in the easting and northing values.
 
 To form a complete MGRS coordinate, you would combine all these components. For example, a location in Afghanistan might have the MGRS coordinate 42S XD 12345 67890, where "42S" represents the grid zone, "XD" represents the 100,000-meter square, and "12345" and "67890" represent the easting and northing, respectively.
 
@@ -172,13 +171,9 @@ MGRS
 54S VE 05633 72235
 ```
 
-![UTM grid Zone](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79725cd9-e802-42a8-960f-21c01d8c9626/Untitled.png)
+![UTM grid Zone](images/image4.png)
 
-UTM grid Zone
-
-![UTM zone divided into smaller 100,000 meters grids for MGRS](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85fca72b-a9ea-4c0a-a355-d11cefed4091/Untitled.png)
-
-UTM zone divided into smaller 100,000 meters grids for MGRS
+UTM grid Zone - UTM zone divided into smaller 100,000 meters grids for MGRS
 
 ### Online tools for MGRS and UTM
 
